@@ -6,6 +6,12 @@
 image: node:10.15.3
 
 pipelines:
+  pull-requests:
+    'master': 
+      - step:
+          script:
+            - echo 'build on master PR'
+pipelines:
   default:
     - parallel:
         - step:
