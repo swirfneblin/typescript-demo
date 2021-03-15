@@ -1,3 +1,5 @@
+[![Build Status](https://975258d0047041.localhost.run/api/badges/swirfneblin/typescript-demo/status.svg)](https://975258d0047041.localhost.run/swirfneblin/typescript-demo)
+
 `typescript-ex`
 ---------------
 
