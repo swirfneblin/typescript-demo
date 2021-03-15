@@ -1,0 +1,14 @@
+kind: pipeline
+type: docker
+name: build
+
+steps:
+  - name: node
+    image: node:alpine
+    commands:
+      - npm install
+      - npm run build
+
+trigger:
+  event:
+    - push
